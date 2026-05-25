@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahsia Guna AI untuk Siapkan Kerja 10x Lebih Cepat</title>
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,Arial,Helvetica,sans-serif;
+      background:#050816;
+      color:#f8fbff;
+      line-height:1.55;
+      overflow-x:hidden;
+    }
+    body:before{
+      content:"";
+      position:fixed;
+      inset:0;
+      background:
+        radial-gradient(circle at 18% 12%,rgba(124,58,237,.42),transparent 32%),
+        radial-gradient(circle at 82% 18%,rgba(14,165,233,.34),transparent 30%),
+        radial-gradient(circle at 52% 78%,rgba(34,197,94,.12),transparent 34%);
+      pointer-events:none;
+      z-index:-2;
+    }
+    body:after{
+      content:"";
+      position:fixed;
+      inset:0;
+      background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+      background-size:54px 54px;
+      mask-image:linear-gradient(to bottom,black,transparent 88%);
+      pointer-events:none;
+      z-index:-1;
+    }
+    .wrap{max-width:1180px;margin:auto;padding:0 22px}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;color:#dbeafe}
+    .brand{font-weight:900;letter-spacing:.3px}.brand span{color:#facc15}
+    .nav a{color:#071225;background:#facc15;text-decoration:none;font-weight:900;padding:10px 18px;border-radius:999px}
+    .hero{padding:52px 0 72px;position:relative}
+    .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:48px;align-items:center}
+    .eyebrow{display:inline-block;background:rgba(250,204,21,.14);border:1px solid rgba(250,204,21,.55);color:#facc15;border-radius:999px;padding:9px 15px;font-weight:900;text-transform:uppercase;font-size:13px;letter-spacing:.6px;margin-bottom:18px}
+    h1{font-size:66px;line-height:1.02;margin:0 0 18px;letter-spacing:-2px}.grad{background:linear-gradient(90deg,#fff,#e0f2fe,#facc15);-webkit-background-clip:text;background-clip:text;color:transparent}.yellow{color:#facc15}
+    .sub{font-size:21px;color:#cbd5e1;max-width:660px;margin-bottom:30px}
+    .hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}.cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(90deg,#facc15,#fb923c);color:#071225;text-decoration:none;font-weight:950;border-radius:16px;padding:17px 25px;box-shadow:0 0 34px rgba(250,204,21,.34)}.ghost{color:#dbeafe;text-decoration:none;border:1px solid rgba(255,255,255,.2);border-radius:16px;padding:16px 22px;background:rgba(255,255,255,.05)}
+    .mini-proof{display:flex;gap:18px;flex-wrap:wrap;margin-top:28px;color:#dbeafe}.mini-proof div{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);padding:10px 14px;border-radius:14px;font-size:14px}
+    .mock-stage{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center}.orb{position:absolute;width:360px;height:360px;background:radial-gradient(circle,rgba(59,130,246,.44),transparent 68%);filter:blur(12px)}.ebook{position:relative;width:350px;min-height:465px;background:linear-gradient(145deg,#1e1b4b,#312e81 58%,#0f172a);border:1px solid rgba(255,255,255,.18);border-radius:28px;padding:42px 34px;box-shadow:0 35px 90px rgba(0,0,0,.55),0 0 55px rgba(124,58,237,.36);transform:perspective(900px) rotateY(-8deg)}.ebook:after{content:"";position:absolute;right:-24px;top:24px;width:24px;height:425px;background:#0b1028;border-radius:0 18px 18px 0;box-shadow:15px 20px 40px rgba(0,0,0,.35)}.ebook-badge{display:inline-block;background:#facc15;color:#111827;font-weight:950;padding:9px 16px;border-radius:9px;margin-bottom:28px}.ebook-title{font-size:38px;line-height:1.12;font-weight:950;color:#facc15}.ebook-title span{color:#fff}.ebook p{color:#cbd5e1}.bot{position:absolute;left:50%;bottom:36px;transform:translateX(-50%);width:118px;height:118px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:58px}.seal{position:absolute;right:-42px;bottom:82px;width:124px;height:124px;border-radius:50%;background:#ef2626;border:4px solid rgba(255,255,255,.85);display:flex;align-items:center;justify-content:center;text-align:center;font-weight:950;font-size:20px;line-height:1.05;box-shadow:0 0 32px rgba(239,38,38,.45)}
+    section{padding:58px 0}.glass{background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.14);box-shadow:0 20px 70px rgba(0,0,0,.22);backdrop-filter:blur(18px);border-radius:28px}.problem{padding:34px}.problem-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:28px;align-items:center}.kicker{color:#facc15;font-weight:950;text-transform:uppercase;letter-spacing:.8px}.h2{font-size:42px;line-height:1.12;margin:8px 0 14px}.muted{color:#cbd5e1}.warn-list{display:grid;gap:12px}.warn{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:16px 18px;color:#eaf2ff}.warn:before{content:"⚠️";margin-right:10px}.solution{text-align:center;margin-top:26px;padding:20px;background:linear-gradient(90deg,rgba(34,197,94,.15),rgba(59,130,246,.14));border-radius:20px;border:1px solid rgba(255,255,255,.12);font-weight:800;color:#eafff4}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:rgba(255,255,255,.078);border:1px solid rgba(255,255,255,.13);border-radius:24px;padding:24px;box-shadow:0 16px 40px rgba(0,0,0,.18)}.card-icon{width:54px;height:54px;border-radius:18px;background:linear-gradient(145deg,#2563eb,#7c3aed);display:flex;align-items:center;justify-content:center;font-size:28px;margin-bottom:14px}.card h3{font-size:22px;margin:0 0 8px}.center{text-align:center}.lead{max-width:760px;margin:0 auto 30px;color:#cbd5e1;font-size:18px}.bonus-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}.bonus-card{position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(30,27,75,.95),rgba(15,23,42,.88));border:1px solid rgba(250,204,21,.28);border-radius:28px;padding:30px;box-shadow:0 0 45px rgba(124,58,237,.18)}.bonus-card:before{content:"";position:absolute;right:-70px;top:-70px;width:200px;height:200px;background:rgba(250,204,21,.14);border-radius:50%}.bonus-tag{display:inline-block;background:#facc15;color:#071225;border-radius:999px;padding:7px 14px;font-weight:950;margin-bottom:18px}.bonus-card h3{font-size:30px;line-height:1.12;margin:0 0 12px}.value{display:inline-block;margin-top:16px;background:rgba(34,197,94,.18);border:1px solid rgba(34,197,94,.35);color:#bbf7d0;border-radius:12px;padding:10px 14px;font-weight:950}.total{margin-top:22px;text-align:center;font-size:22px;font-weight:950;color:#facc15}.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.stars{color:#facc15;letter-spacing:3px;font-size:20px}.quote{color:#e2e8f0}.name{font-weight:950;color:#fff}.role{color:#93c5fd;font-size:14px}.offer{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;padding:34px}.price{font-size:88px;line-height:1;color:#facc15;font-weight:950}.old{text-decoration:line-through;color:#94a3b8;font-size:28px}.checklist{list-style:none;padding:0;margin:22px 0}.checklist li{margin:12px 0;color:#e2e8f0}.checklist li:before{content:"✓";display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;background:#22c55e;color:#071225;border-radius:50%;font-weight:950;margin-right:10px}.footer{padding:26px;text-align:center;color:#94a3b8}.sticky-mobile{display:none}
+    @media(max-width:900px){h1{font-size:42px}.hero-grid,.problem-grid,.offer,.bonus-grid{grid-template-columns:1fr}.mock-stage{min-height:430px}.ebook{width:286px;min-height:390px;padding:30px 26px}.ebook-title{font-size:30px}.ebook:after{height:350px}.seal{right:-14px;width:100px;height:100px;font-size:17px}.cards,.test-grid{grid-template-columns:1fr}.h2{font-size:32px}.price{font-size:68px}.sticky-mobile{display:block;position:fixed;bottom:14px;left:14px;right:14px;z-index:50}.sticky-mobile .cta{width:100%;box-shadow:0 0 42px rgba(250,204,21,.44)}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brand">AI<span>10X</span> Ebook</div>
+      <a href="#beli">Dapatkan RM29</a>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">📘 Ebook Praktikal Bahasa Malaysia</div>
+          <h1><span class="grad">Rahsia Guna AI</span><br>untuk Siapkan Kerja <span class="yellow">10x Lebih Cepat</span></h1>
+          <p class="sub">Panduan langkah demi langkah untuk pekerja pejabat, usahawan dan pelajar yang mahu jimat masa, kurang stress dan hasil kerja lebih profesional.</p>
+          <div class="hero-actions">
+            <a class="cta" href="#beli">🛒 Ya, Saya Nak Ebook Ini</a>
+            <a class="ghost" href="#bonus">Lihat Bonus Eksklusif</a>
+          </div>
+          <div class="mini-proof">
+            <div>⚡ Praktikal & mudah ikut</div>
+            <div>🤖 Sesuai untuk beginner</div>
+            <div>🎁 2 bonus bernilai RM158</div>
+          </div>
+        </div>
+        <div class="mock-stage">
+          <div class="orb"></div>
+          <div class="ebook">
+            <div class="ebook-badge">EBOOK PRAKTIKAL</div>
+            <div class="ebook-title">Rahsia Guna AI <span>untuk Siapkan Kerja</span> 10× Lebih Cepat</div>
+            <p>Panduan Langkah Demi Langkah untuk Produktiviti Maksimum</p>
+            <div class="bot">🤖</div>
+            <div class="seal">100%<br>Praktikal!</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="glass problem">
+        <div class="problem-grid">
+          <div>
+            <div class="kicker">Masalah sebenar</div>
+            <div class="h2">Kerja makin banyak, masa pula makin sempit.</div>
+            <p class="muted">Ramai orang sudah dengar tentang AI, tetapi masih tidak tahu cara guna yang betul untuk kerja harian.</p>
+          </div>
+          <div class="warn-list">
+            <div class="warn">Ambil masa lama untuk tulis email, laporan dan dokumen.</div>
+            <div class="warn">Pernah cuba AI tetapi jawapan terlalu umum dan tidak boleh terus digunakan.</div>
+            <div class="warn">Rasa tertinggal bila orang lain sudah mula guna AI dengan lebih produktif.</div>
+          </div>
+        </div>
+        <div class="solution">Ebook ini dibina untuk bantu anda guna AI secara jelas, praktikal dan terus boleh digunakan dalam kerja sebenar.</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="center">
+        <div class="kicker">Untuk siapa?</div>
+        <div class="h2">Sesuai untuk semua yang mahu kerja lebih pantas</div>
+        <p class="lead">Tidak perlu coding. Tidak perlu jadi pakar teknologi. Anda hanya perlu ikut contoh dan sistem yang disediakan.</p>
+      </div>
+      <div class="cards">
+        <div class="card"><div class="card-icon">💼</div><h3>Pekerja di Pejabat</h3><p class="muted">Siapkan email, report, minit mesyuarat dan dokumen dengan lebih cepat.</p></div>
+        <div class="card"><div class="card-icon">🏪</div><h3>Usahawan</h3><p class="muted">Jana idea content, promosi, copywriting dan sistem kerja harian dengan AI.</p></div>
+        <div class="card"><div class="card-icon">🎓</div><h3>Pelajar</h3><p class="muted">Bantu susun idea, ringkaskan nota, siapkan tugasan dan pembentangan.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="center">
+        <div class="kicker">Apa yang anda akan belajar?</div>
+        <div class="h2">10 bab padat untuk mula guna AI dengan yakin</div>
+      </div>
+      <div class="cards">
+        <div class="card"><div class="card-icon">✍️</div><h3>Email & Komunikasi</h3><p class="muted">Tulis email profesional, follow-up dan balasan dengan lebih cepat.</p></div>
+        <div class="card"><div class="card-icon">📄</div><h3>Report & Dokumen</h3><p class="muted">Ringkaskan teks, tulis laporan dan perbaiki ayat supaya lebih kemas.</p></div>
+        <div class="card"><div class="card-icon">💡</div><h3>Jana Idea</h3><p class="muted">Dapatkan idea content, projek, pembentangan dan marketing tanpa buntu.</p></div>
+        <div class="card"><div class="card-icon">⚙️</div><h3>Automasi Kerja</h3><p class="muted">Fahami konsep automasi mudah untuk kerja berulang.</p></div>
+        <div class="card"><div class="card-icon">🔗</div><h3>Chain Prompt</h3><p class="muted">Guna teknik Outline → Expand → Finalize untuk output lebih berkualiti.</p></div>
+        <div class="card"><div class="card-icon">📅</div><h3>Pelan 7 Hari</h3><p class="muted">Ikut pelan tindakan untuk jadi pengguna AI yang lebih produktif.</p></div>
+      </div>
+    </section>
+
+    <section id="bonus">
+      <div class="center">
+        <div class="kicker">Bonus eksklusif</div>
+        <div class="h2">Dapat 2 bonus bernilai tinggi secara percuma</div>
+      </div>
+      <div class="bonus-grid">
+        <div class="bonus-card">
+          <div class="bonus-tag">BONUS 1</div>
+          <h3>30 Prompt Level Pro (High Impact)</h3>
+          <p class="muted">Prompt tahap profesional untuk strategi, analisis, keputusan, laporan, content dan produktiviti.</p>
+          <div class="value">Nilai: RM79</div>
+        </div>
+        <div class="bonus-card">
+          <div class="bonus-tag">BONUS 2</div>
+          <h3>Prompt Lengkap Sistem Kerja AI</h3>
+          <p class="muted">Prompt penuh siap guna untuk kerja harian, report, content, keputusan dan penambahbaikan output.</p>
+          <div class="value">Nilai: RM79</div>
+        </div>
+      </div>
+      <div class="total">Jumlah Nilai Bonus: RM158 — Percuma untuk anda</div>
+    </section>
+
+    <section>
+      <div class="center">
+        <div class="kicker">Apa kata pembaca?</div>
+        <div class="h2">Ringkas, praktikal dan terus boleh guna</div>
+      </div>
+      <div class="test-grid">
+        <div class="card"><div class="stars">★★★★★</div><p class="quote">“Ebook ni memang game changer. Saya siap laporan dan dokumen lebih cepat daripada biasa.”</p><div class="name">Pekerja di Pejabat</div><div class="role">Pengguna awal</div></div>
+        <div class="card"><div class="stars">★★★★★</div><p class="quote">“Prompt yang diberi sangat membantu untuk content dan kerja marketing harian.”</p><div class="name">Usahawan</div><div class="role">Pengguna awal</div></div>
+        <div class="card"><div class="stars">★★★★★</div><p class="quote">“Sesuai untuk beginner. Saya boleh terus ikut tanpa pening dengan istilah teknikal.”</p><div class="name">Pelajar</div><div class="role">Pengguna awal</div></div>
+      </div>
+    </section>
+
+    <section id="beli">
+      <div class="glass offer">
+        <div>
+          <div class="kicker">Harga promo pelancaran</div>
+          <div class="h2">Dapatkan ebook + 2 bonus hari ini</div>
+          <p class="muted">Jika ebook ini membantu anda jimat hanya 1 jam kerja, nilainya sudah melebihi harga yang anda bayar.</p>
+          <ul class="checklist">
+            <li>Akses ebook dalam bentuk PDF</li>
+            <li>2 bonus eksklusif bernilai RM158</li>
+            <li>Boleh download & baca bila-bila masa</li>
+            <li>Sesuai untuk beginner tanpa coding</li>
+          </ul>
+        </div>
+        <div>
+          <div class="old">Harga asal RM87</div>
+          <div class="price">RM29</div>
+          <a class="cta" href="https://wa.me/60XXXXXXXXX?text=Saya%20nak%20beli%20ebook%20Rahsia%20Guna%20AI%20RM29">🛒 Ya, Saya Nak Dapatkan Sekarang</a>
+          <p class="muted" style="font-size:14px;margin-top:14px">Gantikan nombor WhatsApp dalam link button dengan nombor anda.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">© 2026 Rahsia Guna AI untuk Siapkan Kerja 10x Lebih Cepat. Semua hak cipta terpelihara.</footer>
+  </div>
+  <div class="sticky-mobile"><a class="cta" href="#beli">Dapatkan Ebook RM29</a></div>
+</body>
+</html>
